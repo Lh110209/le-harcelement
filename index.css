@@ -1,7 +1,4 @@
-header{
 
-    border-bottom: px solid rgb(175, 148, 106)
-}
 
 
 
@@ -71,6 +68,10 @@ padding-left: 5px ;
         box-shadow: 0 0 0 3px red inset;
     }
     
+    header{
+
+        border-bottom: px solid rgb(175, 148, 106)
+    }
 
     html {
 
