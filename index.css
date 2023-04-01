@@ -1,5 +1,9 @@
 
 
+header{
+    width: 100%;
+    border-bottom: 0px solid rgb(175, 148, 106)
+}
 
 
 
@@ -68,10 +72,6 @@ padding-left: 5px ;
         box-shadow: 0 0 0 3px red inset;
     }
     
-    header{
-        width: 100%;
-        border-bottom: px solid rgb(175, 148, 106)
-    }
 
     html {
 
@@ -158,8 +158,8 @@ padding-left: 5px ;
         
         width: 100%;
         background-color: hsl(36, 92%, 67%);
-        position: ;
-        padding-right: 150px;
+        position: fixed;
+        padding-right: 0px;
         left: 0px;
         top: 0px;   
 
