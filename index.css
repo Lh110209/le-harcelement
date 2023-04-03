@@ -23,7 +23,7 @@ nav a:hover{
 
     color: rgb(89, 78, 110);
     border-bottom: 2px solid rgb(175, 148, 106);
-    
+      
   
     
 }
@@ -33,6 +33,7 @@ nav a:hover{
 nav > ul li:hover .sous {
 
 display: block;
+position: absolute;
 padding-left: 5px ;
 
 
@@ -42,7 +43,7 @@ padding-left: 5px ;
 
 .sous li{
 
-    margin: 0px 0px;
+    margin: 0px 0px 0px 0px;
     float: none;
     width: 100%;
     text-align: left;
@@ -54,7 +55,8 @@ padding-left: 5px ;
 .sous a {
 
     color: rgb(122, 115, 84);
-    padding: 10px 0px 5px 0px;
+    padding: 15px px 5px 0px;
+    margin-left: 2px;
     
     
 }
@@ -66,6 +68,7 @@ padding-left: 5px ;
     content: "";
     font-size: 15px;
     margin-top: 10px;
+    
     
 }
 
@@ -143,8 +146,8 @@ padding-left: 5px ;
     .entonnoir {
 
         width: 75%;  
-        margin-right: 50px;      
-        margin-left: 40px;
+        margin-right: 0px;      
+        margin-left: 80px;
         
     
     }
@@ -154,18 +157,14 @@ padding-left: 5px ;
 
         border-bottom: 2px solid rgb(214, 168, 17);
         box-shadow: 1px 5px 5px  rgb(231, 188, 132),1px 2px 8px rgb(253, 218, 22); 
-        
         font-size: 15px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
         width: 100%;
         background-color: hsl(36, 92%, 67%);
         position: fixed;
         padding-right: 0px;
         left: 0px;
-        top: 0px;   
-
-        
+        top: 0px;           
         
         
     }
@@ -175,13 +174,8 @@ padding-left: 5px ;
         
         text-decoration: none;
         color: #5f4f32;
-        border-bottom: 2px solid transparent;
-     
-        
-       
-        
-        
-       
+        border-bottom: 2px solid transparent;       
+                                   
         
     }
 
@@ -191,12 +185,8 @@ padding-left: 5px ;
         background-color: rgba(200, 200, 200, 0,1);
         border-bottom: 2px solid rgb(163, 142, 113);
         border-radius: 0% 20%;
-        
-        
-
-        
-        
-        
+                          
+                
     }
 
     
@@ -213,7 +203,7 @@ nav ul{
     nav li{
 
         display: inline;
-        font-size: 12px;
+        font-size: 15px;
         float: left;
         width: 25%;
         text-align: center;
@@ -236,7 +226,7 @@ nav ul{
         width: 35%;
         z-index: 1000;
         text-align: left;
-        margin-left: 30px;
+        margin-left: 20px;
         margin-top: 5px;
         line-height: 30px;
       
