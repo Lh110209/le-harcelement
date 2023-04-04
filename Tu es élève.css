@@ -1,0 +1,404 @@
+header{
+    width: 100%;
+    border-bottom: 0px solid #af946a
+}
+
+
+
+
+
+nav ul :after{
+
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+
+
+nav a:hover{
+
+    color: rgb(89, 78, 110);
+    border-bottom: 2px solid rgb(175, 148, 106);
+   
+  
+    
+}
+
+
+
+nav > ul li:hover .sous {
+
+display: block;
+position: absolute;
+padding-left: 5px ;
+
+
+
+
+
+}
+
+.sous li{
+
+    margin: 0px 0px 0px 0px;
+    float: none;
+    width: 100%;
+    text-align: left;
+    
+    
+
+}
+
+.sous a {
+
+    color: rgb(122, 115, 84);
+    padding: 15px 1px px 0px;
+    margin-left: 2px;
+ 
+    
+    
+}
+
+
+
+.deroulant > a::after{
+
+    content: "";
+    font-size: 15px;
+    margin-top: 10px;
+    
+    
+    
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:979px) {
+   
+        
+    html {
+
+        background-color: #fac576;
+        width: 100%;
+             
+    
+    }
+    
+
+    h1{
+    
+        color: #d6f5b3;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-shadow: 2px 4px 3px grey;
+        margin-top: 110px;  
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 70px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+*{
+    box-shadow: 0 0 0 3px red inset;
+}
+
+
+th{
+
+    font-size: 15px;
+    background-color: #e7bc84;
+    border: 2px solid black;
+         
+ }
+
+
+
+td{ 
+
+    font-size: 10px;
+    border: 2px solid black;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: justify;
+    vertical-align: top;
+    
+}
+   
+
+
+table{
+
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 30px;
+    
+}
+
+
+ul{
+   
+    padding-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: px;
+   }
+   
+
+    
+ 
+  
+   
+
+    nav{
+
+        border-bottom: 2px solid rgb(214, 168, 17);
+        box-shadow: 1px 5px 5px  #e7bc84,1px 2px 8px rgb(253, 218, 22); 
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        width: 100%;
+        background-color: #f8ba5d;
+        position: fixed;
+        padding-right: 0px;
+        left: 0px;
+        top: 0px;           
+        
+        
+    }
+
+    nav a{
+        
+        
+        text-decoration: none;
+        color: #5f4f32;
+        border-bottom: 2px solid transparent;       
+                                   
+        
+    }
+
+    .sous a:hover {
+
+        border-bottom: none;
+        background-color: rgba(200, 200, 200, 0,1);
+        border-bottom: 2px solid rgb(163, 142, 113);
+        border-radius: 0% 20%;
+                          
+                
+    }
+
+    
+nav ul{
+
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+
+}
+
+
+    nav li{
+
+        display: inline;
+        font-size: 12px;
+        float: left;
+        width: 20%;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+       
+
+        
+        
+    }
+
+   
+
+    .sous{
+
+        border-radius: 0px 20px 0px 20px;
+        display: none;
+        box-shadow: 2px 3px 4px hwb(0 45% 54%);
+        background-color: rgb(231, 212, 191);
+        position: absolute;
+        width: 35%;
+        z-index: 1000;
+        text-align: left;
+        margin-left: 20px;
+
+      
+      
+    }
+
+  
+
+ 
+    
+}
+
+
+@media  screen and (min-width: 980px) {
+
+    
+
+
+    html {
+
+        background-color: rgb(250, 197, 118);
+        width: 100%;
+        
+    
+    }
+
+    h1{
+    
+ 
+        color: #d6f5b3;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-shadow: 2px 4px 3px grey;
+        margin-top: auto;
+        padding-top: 150px;
+        padding-bottom: 150px;              
+        text-align: center;
+        font-size: 80px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+   body{
+
+    margin-bottom: 150px;
+   }
+   
+
+
+   nav{
+
+    border-bottom: 2px solid rgb(214, 168, 17);
+    box-shadow: 1px 5px 5px  rgb(231, 188, 132),1px 2px 8px rgb(253, 218, 22); 
+    
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+   width: 100%;
+    background-color: hsl(36, 92%, 67%);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+
+nav a{
+
+    
+    display: block;
+    text-decoration: none;
+    color: #5f4f32;
+    border-bottom: 2px solid transparent;
+    padding: 0px 0px 0px 0px;
+    
+    
+}
+
+
+nav ul{
+
+   
+    list-style-type: none;
+       margin-left: 0px;
+       margin-right: 30px;
+      
+
+}
+
+
+
+nav ul li{
+
+    
+    font-size: 15px;
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+   
+    
+}
+
+.sous a:hover {
+
+    border-bottom: none;
+    background-color: rgba(200, 200, 200, 0,1);
+    border-bottom: 2px solid rgb(163, 142, 113);
+    border-radius: 0% 20%;
+    
+    
+    
+    
+}
+
+.sous{
+
+    margin-left: 30px;
+    border-radius: 0px 20px 0px 20px;
+    display: none;
+    box-shadow: 2px 3px 4px hwb(0 45% 54%);
+    background-color: rgb(240, 215, 184);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+
+
+   
+  
+}
+ 
+   
+th{
+
+    background-color: #e7bc84;
+    border: 2px solid black;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 22px;
+   
+ 
+
+}
+
+
+
+td{ 
+
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    line-height: 30px;
+    
+}
+   
+
+
+table{
+
+    border-collapse: collapse;
+    padding-top: 0px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+    margin-left: 200px
+    
+}
+
+   
+
+ 
+
+}
