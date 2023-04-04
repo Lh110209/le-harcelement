@@ -217,7 +217,14 @@ nav ul{
         margin-bottom: 100px;
     }
 
-   
+    footer{
+
+        font-size: 10px;
+        margin-top: 150px;
+        margin-left: 150px;
+        margin-right: 30px;
+        text-align: justify;
+    }
     
 }
 
@@ -366,6 +373,14 @@ nav ul{
         margin-top: 60px;
         margin-left: 450px;
         margin-bottom: 100px;
+    }
+
+    footer{
+
+        font-size: 10px;
+        margin-top: 150px;
+        margin-left: 650px;
+        text-align: justify;
     }
 
 
