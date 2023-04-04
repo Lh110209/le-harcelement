@@ -102,13 +102,12 @@ padding-left: 5px ;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
-*{
-    box-shadow: 0 0 0 3px red inset;
-}
 
 
 th{
 
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 15px;
     background-color: #e7bc84;
     border: 2px solid black;
@@ -125,7 +124,8 @@ td{
     padding-left: 0px;
     text-align: justify;
     vertical-align: top;
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
    
 
@@ -134,8 +134,8 @@ table{
 
     border-collapse: collapse;
     margin-bottom: 100px;
-    margin-right: 50px;
-    margin-left: 30px;
+    margin-right: 30px;
+    margin-left: 10px;
     
 }
 
@@ -147,6 +147,11 @@ ul{
     margin-top: 10px;
     margin-bottom: 10px;
     line-height: px;
+   }
+
+   li{
+
+    margin-bottom: 10px;
    }
    
 
@@ -236,7 +241,11 @@ nav ul{
       
     }
 
-  
+  p{
+
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 
  
     
