@@ -264,7 +264,7 @@ nav ul{
     
    body{
 
-    margin-bottom: 150px;
+    margin-bottom: 20px;
    }
    
 
@@ -372,15 +372,16 @@ nav ul{
         width: 35%;
         margin-top: 60px;
         margin-left: 450px;
-        margin-bottom: 100px;
+        padding-bottom: 300px;
     }
 
+   
     footer{
 
-        font-size: 10px;
-        margin-top: 150px;
-        margin-left: 650px;
+        font-size: 12px;    
+        margin-left: 930px;
         text-align: justify;
+      
     }
 
 
