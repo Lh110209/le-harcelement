@@ -54,8 +54,9 @@ padding-left: 5px ;
 .sous a {
 
     color: rgb(122, 115, 84);
-    padding: 15px 1px 5px 0px;
+    padding: 15px 1px px 0px;
     margin-left: 2px;
+ 
     
     
 }
@@ -176,7 +177,7 @@ nav ul{
         width: 20%;
         text-align: center;
         margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         margin-left: 0px;
        
 
@@ -207,8 +208,8 @@ nav ul{
         z-index: 1000;
         text-align: left;
         margin-left: 20px;
-        margin-top: 5px;
-        line-height: 30px;
+
+      
       
     }
 
